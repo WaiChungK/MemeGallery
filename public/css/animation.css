@@ -1,0 +1,32 @@
+
+@keyframes change-font-size-sm
+{
+	to { font-size: 12px;}
+}
+
+@keyframes change-font-size-md
+{
+	to { font-size: 15px;}
+}
+
+@keyframes change-font-size-lg
+{
+	to { font-size: 22px;}
+}
+
+@keyframes change-font-size-xlg
+{
+	to { font-size: 30px;}
+}
+
+.like-icon
+{
+	cursor: pointer;
+	margin: 5px 0px;
+}
+.like-icon:hover {
+	animation-name: change-font-size-lg;
+	animation-duration: 0.1s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+}

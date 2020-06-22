@@ -1,0 +1,58 @@
+
+textarea {
+	resize: none;
+}
+
+i {
+	font-size: 10px;
+}
+
+.see-replies
+{
+	color: #4d7bab;
+	float: left !important;
+	/* padding: 0px 10px; */
+	padding-left: 5px;
+	cursor: pointer !important;
+	font-size: 12px;
+}
+
+.cancel-button
+{
+	display: none;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size:15px;
+	font-style: italic;
+	padding: 0px 10px;
+	cursor: pointer !important;
+}
+.cancel-button:hover
+{
+	text-decoration: underline;
+}
+
+.reply-button
+{
+	margin: 5px 0px;
+	cursor: pointer !important;
+}
+
+.reply-form
+{
+	margin: 5px 0px !important;
+	padding: 5px 0px;
+}
+
+.input-comment-reply {
+	overflow: hidden;
+}
+
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
